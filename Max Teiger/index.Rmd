@@ -1,0 +1,69 @@
+---
+title       : First Shiny App
+subtitle    : US Census 2010
+author      : TEIGER MAUNICK HALBEHER
+job         : Data Analytics
+logo        : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : solarized_light      # 
+widgets     : [interactive, quiz]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+<!-- Limit image width and height -->
+<style type='text/css'>
+img {
+    max-height: 560px;
+    max-width: 964px;
+}
+</style>
+
+<!-- Center image on slide -->
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+<script type='text/javascript'>
+$(function() {
+    $("p:has(img)").addClass('centered');
+});
+</script>
+---
+## Idea
+
+> The idea is to have an impact on the distribution of the population in the United States according to the ethnic origins of the inhabitants. 
+
+---
+## Datas
+
+```{r, results='asis'}
+library(xtable)
+print(xtable(counties[1:6,1:6]), type = "html")
+```
+
+<img src='https://upload.wikimedia.org/wikipedia/commons/b/b1/ECE_PARIS_ssvilles.png'>
+
+--- &radio
+
+## Quizz
+
+What is the most populated countie in USA ?
+
+1. _California, Los Angeles_
+2. New York, Queens
+3. Florida, Miami
+4. Texas, Dallas
+
+*** .hint
+The weather is good there
+
+*** .explanation
+Slidify marche pas bien
+
+---
+## Answer 
+```{r, results='asis'}
+m_countie <- counties[order(-counties$total.pop),][1,]
+print(xtable(m_countie), type = 'html')
+```
+
+
+
