@@ -1,0 +1,12 @@
+name: census-app
+title:
+username:
+account: maxteiger
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1533463
+bundleId: 2622301
+url: https://maxteiger.shinyapps.io/census-app/
+when: 1574873314.89226
+asMultiple: FALSE
+asStatic: FALSE
