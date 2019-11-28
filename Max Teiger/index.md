@@ -41,7 +41,7 @@ print(xtable(counties[1:6,1:6]), type = "html")
 ```
 
 <!-- html table generated in R 3.5.2 by xtable 1.8-4 package -->
-<!-- Wed Nov 27 19:47:19 2019 -->
+<!-- Thu Nov 28 09:01:15 2019 -->
 <table border=1>
 <tr> <th>  </th> <th> name </th> <th> total.pop </th> <th> white </th> <th> black </th> <th> hispanic </th> <th> asian </th>  </tr>
   <tr> <td align="right"> 1 </td> <td> alabama,autauga </td> <td align="right"> 54571.00 </td> <td align="right"> 77.20 </td> <td align="right"> 19.30 </td> <td align="right"> 2.40 </td> <td align="right"> 0.90 </td> </tr>
@@ -80,7 +80,7 @@ print(xtable(m_countie), type = 'html')
 ```
 
 <!-- html table generated in R 3.5.2 by xtable 1.8-4 package -->
-<!-- Wed Nov 27 21:35:48 2019 -->
+<!-- Thu Nov 28 09:01:15 2019 -->
 <table border=1>
 <tr> <th>  </th> <th> name </th> <th> total.pop </th> <th> white </th> <th> black </th> <th> hispanic </th> <th> asian </th>  </tr>
   <tr> <td align="right"> 175 </td> <td> california,los angeles </td> <td align="right"> 9818605.00 </td> <td align="right"> 27.80 </td> <td align="right"> 13.20 </td> <td align="right"> 47.70 </td> <td align="right"> 13.70 </td> </tr>

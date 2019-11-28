@@ -5,7 +5,7 @@
 First Shiny App developped to learn R.
 
 Following this tutotial : 
-[Tutorial](https://shiny.rstudio.com/tutorial/written-tutorial/)
+[Tutorial](https://shiny.rstudio.com/tutorial/written-tutorial/lesson1/)
 
 [App on ShinyApps.io](https://maxteiger.shinyapps.io/census-app/)
 ---

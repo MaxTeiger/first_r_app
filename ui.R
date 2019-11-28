@@ -44,7 +44,7 @@ server <- function(input, output) {
     
     color <- switch(input$var, 
                     "Percent White" = "darkgreen",
-                    "Percent Black" = "black",
+                    "Percent Black" = "darkblue",
                     "Percent Hispanic" = "darkorange",
                     "Percent Asian" = "darkviolet")
     
